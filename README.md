@@ -11,7 +11,7 @@ Bridge makes tiring routes easy for PRX.
 <div align="center">
 <a href="https://twitter.com/ParexPRX"> <img src="http://parex.market/github/twitter.png" target="_blank" width="7%" height="7%"> </a> 
 <a href="https://t.me/parexmarket"> <img src="http://parex.market/github/telegram.png" target="_blank" width="7%" height="7%"> </a> 
- <a href="https://t.me/ParexPRX"> <img src="http://parex.market/github/youtube.png" target="_blank" width="7%" height="7%"> </a> 
+ <a href="https://www.youtube.com/channel/UCoaCqqGjbEZU-n2ZkBKfoAg"> <img src="http://parex.market/github/youtube.png" target="_blank" width="7%" height="7%"> </a> 
 <a href="https://twitter.com/ParexMarket"> <img src="http://parex.market/github/twitter.png" target="_blank" width="7%" height="7%"></a>
 <a href="https://t.me/ParexPRX"> <img src="http://parex.market/github/telegram.png" target="_blank" width="7%" height="7%"> </a> 
 
