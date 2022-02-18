@@ -312,7 +312,7 @@ Cloud Trackers” table.
 
 <h5>Flow Charts</h5>
 
- <img src="http://parex.market/github/privatecloud.png" width="30%" height="30%"/> <img src="http://parex.market/github/partnercloud.png" width="39%" height="30%"/> <img src="http://parex.market/github/publiccloud.png" width="30%" height="30%"/> 
+ <img src="http://parex.market/github/privatecloud.png" width="25%" height="25%"/> <img src="http://parex.market/github/partnercloud.png" width="34%" height="25%"/> <img src="http://parex.market/github/publiccloud.png" width="25%" height="25%"/> 
  
 <h5>Parex Annual Production Changes</h5>
 
