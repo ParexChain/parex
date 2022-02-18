@@ -148,6 +148,8 @@ offline for 24 hours fall into the
 “Waiting Cloud Trackers” table and
 are treated as Public Cloud.
 
+--------------------------------------------------------------------
+
 <h5>Public Cloud</h5>
 
 Parex production is done from the "My Clouds" menu on the Parex Market
@@ -219,6 +221,8 @@ dashboards/mastertracker
 Public Cloud packages that are
 offline for 2 hours fall back into the
 “Waiting Cloud Trackers” table.
+
+-----------------------------------------------------------------
 
 <h5>Partner Cloud</h5>
 
