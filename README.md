@@ -18,7 +18,7 @@ Bridge makes tiring routes easy for PRX.
 </div>
 
 <p align="center">
-  <img src="http://parex.market/github/tokenomic.png" />
+  <img src="http://parex.market/github/tokenomics.png" />
 </p>
 
 Parex is a token whose entire supply is in the hands of its users. Distribution progresses through users. Production is done only by users. No PRX is produced outside of production.
