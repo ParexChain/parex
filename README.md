@@ -34,7 +34,7 @@ Parex is a token whose entire supply is in the hands of its users. Distribution 
    - [Parex Annual Production Changes](#parex-annual-production-changes)
 3. [API Reference (POST):](#api-reference)
 4. [Proof of Interoperability](#proof-of-interoperability)
-5. [Road Map](#road-map)
+5. [RoadMap](#roadmap)
      
 
 
@@ -494,7 +494,7 @@ https://parex.market/details
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
 
-## Road Map
+## RoadMap
 
 ![alt text](https://parex.market/github/roadmapPRX.png)
 
