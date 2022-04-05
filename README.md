@@ -681,7 +681,7 @@ Marketing</p>
 <p class=MsoListParagraphCxSpMiddle style='margin-left:108.0pt;text-indent:
 -18.0pt'><span style='font-family:Wingdings;color:#0070C0'>§<span
 style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
-style='color:#0070C0'>Binance Launchpad Negotiate</span></p>
+style='color:#0070C0'>Binance Launchpool Negotiate</span></p>
 
 <p class=MsoListParagraphCxSpLast style='margin-left:108.0pt;text-indent:-18.0pt'><span
 style='font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
