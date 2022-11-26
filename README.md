@@ -454,6 +454,20 @@ https://parex.market/details
 - `pairinfo : PairCoin Name`
 - `maininfo : MainCoin Name`
 
+
+```
+"https://apiv1.parex.exchange/cancelMyOrdersByID"
+- `apikey : Parex API Key`
+- `secretkey : Parex Secret Key`
+- `marketid : Parex Market ID`
+- `token : Parex Token (getToken)`
+- `orderid : Parex Market Order ID`
+```
+- `orderid : orderID `
+- `type : Buy/Sell `
+
+
+
 ```
 "https://apiv1.parex.exchange/getMyHistory"
 - `apikey : Parex API Key`
