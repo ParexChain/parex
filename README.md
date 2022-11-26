@@ -436,6 +436,23 @@ https://parex.market/details
 
 
 
+```
+"https://apiv1.parex.exchange/getMyOrdersByID"
+- `apikey : Parex API Key`
+- `secretkey : Parex Secret Key`
+- `marketid : Parex Market ID`
+- `token : Parex Token (getToken)`
+- `orderid : Parex Market Order ID`
+```
+- `orderid : orderID `
+- `type : Buy/Sell `
+- `date : Datetime `
+- `amount : Amount`
+- `price : Price`
+- `total : Total`
+- `marketid : Parex MarketID`
+- `pairinfo : PairCoin Name`
+- `maininfo : MainCoin Name`
 
 ```
 "https://apiv1.parex.exchange/getMyHistory"
