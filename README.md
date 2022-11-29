@@ -58,7 +58,7 @@ So what is Pos & Node?
 As the name suggests, it is a system consisting of a combination of Proof Of
 Stake and Node. In this system, both POS and Node You are combining your
 rewards. Thus, a higher rate of reward than other crypto production
-mechanisms you can receive. The myDexChain blockchain blends proof of
+mechanisms you can receive. The Parex blockchain blends proof of
 stake and node systems, thanks to a self-developed generation algorithm. has
 developed a brand new, simple and plain crypto production mechanism that
 appeals to every user base.
@@ -76,7 +76,7 @@ mobile application. In order to create a Parex package, you must have
 enough PRX in your wallet. Tracker installation is required in order to
 produce parex with the Private Cloud option.
 
-After performing the Traker installation (https://dexfactory.mydexchain.io/trackerandmastertrackersetup.html), production packages can be created
+After performing the Traker installation (https://dexfactory.parexscan.io/trackerandmastertrackersetup.html), production packages can be created
 from the “My Clouds” menus.
 
 Parex Packages can be made with 1,000 PRXs.
@@ -110,7 +110,7 @@ the "LIST" menu. Each parex package has its own unique CloudCode
 (PXCM….). Packages created with this code are connected to the trackers.
 
 Tracker connection with Parex package;
-After installing the Tracker and running the myDexChain Container, a Master
+After installing the Tracker and running the Parex Container, a Master
 Tracker connection must be made first. Since the trackers receive the data
 from the Master trackers, production cannot be made if this process is not
 done. The connection code is as follows.
@@ -141,7 +141,7 @@ determined rate is covered from the
 produced PRX. You can find the
 "poolapikey" and "service fee" rates
 from the master tracker list. https://
-mydexchain.io/#/dashboards/
+parexscan.io/#/dashboards/
 mastertracker
 
 Private Cloud packages that are
@@ -193,7 +193,7 @@ After the package is created, you can see the package you have created from
 the "LIST" menu. Each parex package has its own unique CloudCode
 (PXCM….). Packages created with this code are connected to the trackers.
 As soon as the Public Cloud account is created, it falls into the “Waiting Cloud
-Tracker” list. https://mydexchain.io/#/dashboards/dexcommunity
+Tracker” list. https://parexscan.io/#/dashboards/dexcommunity
 
 Production will begin when any Master Tracker accepts the application and
 completes the installation process.
@@ -216,7 +216,7 @@ itself. Fee at the determined rate is
 covered from the produced PRX.
 You can find the "poolapikey" and
 "service fee" rates from the master
-tracker list. https://mydexchain.io/#/
+tracker list. https://parexscan.io/#/
 dashboards/mastertracker
 
 Public Cloud packages that are
@@ -278,7 +278,7 @@ the "LIST" menu. Each parex package has its own unique CloudCode
 (PXCM….). Packages created with this code are connected to the trackers.
 
 As soon as the Partner Cloud package reaches 1.010 PRX, it falls into the
-“Waiting Cloud Tracker” list. https://mydexchain.io/#/dashboards/dexcommunity
+“Waiting Cloud Tracker” list. https://parexscan.io/#/dashboards/dexcommunity
 
 Production will begin when any Master Tracker accepts the application and
 completes the installation process.
@@ -308,7 +308,7 @@ itself. Fee at the determined rate is
 covered from the produced PRX. You
 can find the "poolapikey" and "service
 fee" rates from the master tracker list.
-https://mydexchain.io/#/dashboards/
+https://parexscan.io/#/dashboards/
 mastertracker
 
 *Partner Cloud packages that are offline
@@ -534,11 +534,11 @@ https://parex.market/details
 
 
 ```
-"https://mydexchain.io/todosDex/getApi.php?q=totalcoins"
+"https://parexscan.io/todosDex/getApi.php?q=totalcoins"
 ```
 
 ```
-"https://mydexchain.io/todosDex/getApi.php?q=circulating"
+"https://parexscan.io/todosDex/getApi.php?q=circulating"
 ```
 
 <div align="right">
