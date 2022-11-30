@@ -778,7 +778,7 @@ style='font-family:Symbol;color:#0070C0'>·<span style='font:7.0pt "Times New Ro
 
 Commands to Execute: For Moving from old Node to new Node
 ```
-wget https://raw.githubusercontent.com/parexmarket/parex/main/movetoparex.sh
+wget https://raw.githubusercontent.com/parexchange/parex/main/movetoparex.sh
 ```
 ```
 bash movetoparex.sh
