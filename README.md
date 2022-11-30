@@ -39,7 +39,7 @@ Parex is a token whose entire supply is in the hands of its users. Distribution 
 3. [API Reference (POST):](#api-reference)
 4. [Proof of Interoperability](#proof-of-interoperability)
 5. [RoadMap](#roadmap)
-6. [Public Release Notes] (#releasenote)
+6. [Public Release Notes](#public-release-notes)
      
 
 
