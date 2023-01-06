@@ -602,6 +602,17 @@ style='font-family:Symbol;color:#0070C0'>·<span style='font:7.0pt "Times New Ro
 
 ## Public Release Notes
 
+
+##### v2.5.1
+
+```
+"http://{DockerHostIP}:2020/setContinueMasterPackage/”
+```
+
+To extend the MasterPack expiry date for add 6 months
+
+
+
 ##### v2.5.0
 - Parex Network 
 
