@@ -602,6 +602,10 @@ style='font-family:Symbol;color:#0070C0'>·<span style='font:7.0pt "Times New Ro
 
 ## Public Release Notes
 
+##### v2.5.1d
+ - Fix Sync Bug
+ - Fix Host Online Bug
+
 
 ##### v2.5.1
 
