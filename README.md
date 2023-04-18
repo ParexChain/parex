@@ -632,12 +632,12 @@ bash movetoparex.sh
 
 ## :wrench: System Requirements
 ### DexTracker
-- parex Node Minimum Requirements: **`2 Core`** of CPU **`8GB`** of Memory and **`5TB`** of SSD
+- parex Node Minimum Requirements: **`2 Core`** of CPU **`8GB`** of Memory and **`7TB`** of SSD
 - Tested Operation Systems `Windows Server 2016 or Later` || `Centos` || `Ubuntu` || `Amazon Linux`
 - At Least `5mbit` of `Internet Connection` with Port `2020` Ingress from **Your IP** Allowed
 
 ### MasterTracker
-- parex Node Minimum Requirements: **`8 Core`** of CPU **`16GB`** of Memory and **`5TB`** of SSD
+- parex Node Minimum Requirements: **`8 Core`** of CPU **`16GB`** of Memory and **`7TB`** of SSD
 - Tested Operation Systems `Windows Server 2016 or Later` || `Centos` || `Ubuntu` || `Amazon Linux`
 - At Least `20mbit` of `Internet Connection` with Port `2053` Ingress from **Your IP** Allowed
 
