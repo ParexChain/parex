@@ -602,6 +602,11 @@ style='font-family:Symbol;color:#0070C0'>·<span style='font:7.0pt "Times New Ro
 
 ## Public Release Notes
 
+##### v2.6.0a
+
+Fix performance problems
+
+
 ##### v2.6.0
 
 ```
