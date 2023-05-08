@@ -608,12 +608,14 @@ style='font-family:Symbol;color:#0070C0'>·<span style='font:7.0pt "Times New Ro
 ```
 "http://{DockerHostIP}:2020/getOldWallet/{privatekey}{seedphrase}{password}”
 ```
-
+```
 {privatekey} : `Old Application Private Key`
 {seedPhrase} : `Old Application Seed Phrase`
 {password} : `Old Application Password`
 
 you can add and use "old application" secure wallet
+```
+
 
 
 ##### v2.6.0a
