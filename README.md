@@ -607,25 +607,22 @@ Transaction Fee is 0.005 but Maximum fee is 0.5$
 Sample Fee Calculation
 
 
-1 PRX = 1$ example;
 | Transaction Amount | Fee %         | Fee Amount   |
 | :----------------: | :-----------: |:-----------: |
 |              1 PRX |         0.005 |    0.005 PRX |
 |             10 PRX |         0.005 |     0.05 PRX |
 |            100 PRX |         0.005 |      0.5 PRX |
-|            200 PRX |         0.005 |         0.5$ |
-|           1000 PRX |         0.005 |         0.5$ |
-|           2000 PRX |         0.005 |         0.5$ |
-|           3000 PRX |         0.005 |         0.5$ |
-|           5000 PRX |         0.005 |        0.5$ |
+|            200 PRX |             - |         0.5$ |
+|           1000 PRX |             - |         0.5$ |
+
 
 
 
 ### Standard fee distribution
-- %0,01 MasterTracker Bonus
-- %0,01 DexTracker Bonus
-- %0,01 Lightning Bonus
-- %0,01 Hodl Bonus
+- %0,01 MasterTracker Fee Bonus
+- %0,01 DexTracker Fee Bonus
+- %0,01 Lightning Fee Bonus
+- %0,01 Stacking Fee Bonus
 - %0,01 Burn 
 
 
