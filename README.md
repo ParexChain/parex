@@ -632,6 +632,13 @@ Sample Fee Calculation
 ## Public Release Notes
 
 
+##### v2.7.0
+
+- Physical PC optimization for MasterTracker 
+- Fixed bugs finalized block
+
+
+
 ##### v2.6.1
 
 ```
