@@ -634,8 +634,10 @@ Sample Fee Calculation
 
 ##### v2.7.0
 
+```
 - Physical PC optimization for MasterTracker 
 - Fixed bugs finalized block
+```
 
 
 
