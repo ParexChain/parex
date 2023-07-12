@@ -638,6 +638,7 @@ Sample Fee Calculation
 ```
 
 - {password} : `MasterTracker User Password`
+- default password is "public"
 
 
 
