@@ -631,6 +631,23 @@ Sample Fee Calculation
 
 ## Public Release Notes
 
+##### v2.7.0a
+
+```
+"http://{DockerHostIP}:2020/setUserPass/{password}”
+```
+
+- {password} : `MasterTracker User Password`
+
+
+
+```
+"http://{DockerHostIP}:2020/setJoinPool/{poolapikey}&{password}”
+```
+
+- {poolapikey} : `PoolApikey`
+- {password} : `MasterTracker User Password`
+
 
 ##### v2.7.0
 
