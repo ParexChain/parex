@@ -631,6 +631,14 @@ Sample Fee Calculation
 
 ## Public Release Notes
 
+
+##### v2.7.1
+
+
+- Faster crawling time for the DNS crawler
+- Fix Ubuntu PPA builds
+- Fix the simulated backend
+
 ##### v2.7.0a
 
 ```
