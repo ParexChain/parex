@@ -631,6 +631,12 @@ Sample Fee Calculation
 
 ## Public Release Notes
 
+##### v2.7.2
+
+- Fix p2p mockgen locations
+- Fix end proof verifications
+
+  
 
 ##### v2.7.1
 
