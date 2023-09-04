@@ -631,6 +631,11 @@ Sample Fee Calculation
 
 ## Public Release Notes
 
+##### v2.7.3
+
+- MasterTracker enable for HomePC Tracker
+
+
 ##### v2.7.2
 
 - Fix p2p mockgen locations
