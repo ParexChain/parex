@@ -635,6 +635,7 @@ Sample Fee Calculation
 
 - Fixed Bugs on HomePC Tracker
 - Fixed handle fatal error
+- Remove optional height indexing interface
 
 
 ##### v2.7.3
