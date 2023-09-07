@@ -633,7 +633,8 @@ Sample Fee Calculation
 
 ##### v2.7.4
 
-- PEP2 Bridge working on 
+- Fixed Bugs on HomePC Tracker
+- Fixed handle fatal error
 
 
 ##### v2.7.3
