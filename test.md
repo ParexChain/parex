@@ -512,23 +512,16 @@ docker run -d --rm -p 2020:2020 -p 2053:3030 -v parex:/var/lib/postgresql/ --pri
 docker attach parex
 ```
 
-### I am Getting Errors in Windows OS? 
-Make sure `Use the WSL 2 based engine` is enabled in Docker General Settings.
-
-
 ### Where is the Docker Mount Volume Located in Windows OS? 
 Mount folder is located under:
 
-``` 
-\\wsl$\docker-desktop-data\version-pack-data\community\docker\volumes
-```
+![image](https://github.com/ParexChain/parex/assets/45968018/1fd659ec-f784-4057-a168-76aef3854b11)
 
-### Where is the Pyhsical Path Docker Mount Volume Located in Windows OS? 
-Mount disk is located under:
+![image](https://github.com/ParexChain/parex/assets/45968018/f1fe4632-bf65-4509-8587-e116450771fd)
 
-``` 
-%USERPROFILE%\AppData\Local\Docker\wsl\data\ext4.vhdx
-```
+![image](https://github.com/ParexChain/parex/assets/45968018/01d57f65-2732-45a0-81f1-74d6fcdcb5d2)
+
+
 ### How to run Test Mode 
 Test mode is used for making demo for Parex Network. **Do not use for production!**
 ```
