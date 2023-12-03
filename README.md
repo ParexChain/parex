@@ -1147,7 +1147,7 @@ docker attach parex
 
 
 
-### Where is the Docker Mount Volume Located in Windows OS? 
+### How to Run ParexChain Container in Windows OS? 
 Mount folder is located under:
 
 1. install Docker Desktop
