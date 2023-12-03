@@ -630,7 +630,8 @@ Sample Fee Calculation
 
 
 ## Public Release Notes
-##### v2.7.4
+
+##### v2.7.5
 
 - Integrated Testnet EVM
 - Truncated Ancient Data
