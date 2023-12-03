@@ -788,7 +788,7 @@ wget https://backup.parexscan.io/parex-data-[date].tar.gz
 ```
 Stop parex node
 ```
-docker kill parex
+docker kill --signal="SIGTERM" parex
 ```
 Delete old data dir
 ```
@@ -800,7 +800,7 @@ tar -zxvf parex-data-[date].tar.gz -C /var/lib/docker/volumes/parex/_data/
 ```
 And start the node
 ```
-docker run -d --rm -p 2020:2020 -p 2053:3030 -v parex:/var/lib/postgresql/ --privileged --log-driver=none --name parex parex/parex:latest
+docker run -d --rm -p 2020:2020 -p 2053:3030 -p 8545:8545 -p 30303:30303 -v parex:/var/lib/postgresql/ --privileged --log-driver=none --name parex parex/parex:latest
 ```
 
 ## :computer: Usage
@@ -810,7 +810,7 @@ docker run -d --rm -p 2020:2020 -p 2053:3030 -v parex:/var/lib/postgresql/ --pri
 parex docker file is stored in dockerhub and ready for use with command: (Please check the version and use as tag rather than latest)
 
 ```
-docker run -d --rm -p 2020:2020 -p 2053:3030 -v parex:/var/lib/postgresql/ --privileged --log-driver=none --name parex parex/parex:latest
+docker run -d --rm -p 2020:2020 -p 2053:3030 -p 8545:8545 -p 30303:30303 -v parex:/var/lib/postgresql/ --privileged --log-driver=none --name parex parex/parex:latest
 ```
 
 After docker container **comes up** run the command;
@@ -1009,9 +1009,9 @@ service docker start
 ```
 
 ```
-docker kill parex 
+docker kill --signal="SIGTERM" parex 
 docker pull parex/parex
-docker run -d --rm -p 2020:2020 -p 2053:3030 -v parex:/var/lib/postgresql/ --privileged --log-driver=none --name parex parex/parex:latest
+docker run -d --rm -p 2020:2020 -p 2053:3030 -p 8545:8545 -p 30303:30303 -v parex:/var/lib/postgresql/ --privileged --log-driver=none --name parex parex/parex:latest
 ```
 
 
@@ -1034,7 +1034,7 @@ Parex maps blocks inside PostgreSQL and it has been addressed inside dockerfile.
 ##### 1. Stop `parex` Node Docker Container (For Data Consistency):
 
 ``` 
-docker kill parex
+docker kill --signal="SIGTERM" parex
 ```
 
 ##### 2. Copy `/var/lib/docker/volumes/parex` to Backup Path:
@@ -1046,7 +1046,7 @@ rsync -avzhHP /var/lib/docker/volumes/parex/ /backup_path/parex/
 ##### 3. Start `parex` Docker Container on the New Docker Host :
 
 ``` 
-docker run -d --rm -p 2020:2020 -p 2053:3030 -v parex:/var/lib/postgresql/ --privileged --log-driver=none --name parex parex/parex:latest
+docker run -d --rm -p 2020:2020 -p 2053:3030 -p 8545:8545 -p 30303:30303 -v parex:/var/lib/postgresql/ --privileged --log-driver=none --name parex parex/parex:latest
 ```
 
 
@@ -1061,7 +1061,7 @@ docker attach parex
 ##### 1. Stop `parex` Node Docker Container (For Data Consistency):
 
 ``` 
-docker kill parex
+docker kill --signal="SIGTERM" parex
 ```
 
 ##### 2. Copy `%USERPROFILE%\AppData\Local\Docker\wsl\data\ext4.vhdx` to Backup Path:
@@ -1069,7 +1069,7 @@ docker kill parex
 ##### 3. Start `parex` Docker Container on the New Docker Host :
 
 ``` 
-docker run -d --rm -p 2020:2020 -p 2053:3030 -v parex:/var/lib/postgresql/ --privileged --log-driver=none --name parex parex/parex:latest
+docker run -d --rm -p 2020:2020 -p 2053:3030 -p 8545:8545 -p 30303:30303 -v parex:/var/lib/postgresql/ --privileged --log-driver=none --name parex parex/parex:latest
 ```
 
 
@@ -1088,7 +1088,7 @@ docker attach parex
 ##### 1. Stop `parex` Node Docker Container:
 
 ``` 
-docker kill parex
+docker kill --signal="SIGTERM" parex
 ```
 
 ##### 2. Copy Node Files to New Docker Host :
@@ -1100,7 +1100,7 @@ rsync -avzhHP --rsync-path="sudo rsync" -e "ssh -i key -o StrictHostKeyChecking=
 ##### 3. Start `parex` Docker Container on the New Host :
 
 ``` 
-docker run -d --rm -p 2020:2020 -p 2053:3030 -v parex:/var/lib/postgresql/ --privileged --log-driver=none --name parex parex/parex:latest
+docker run -d --rm -p 2020:2020 -p 2053:3030 -p 8545:8545 -p 30303:30303 -v parex:/var/lib/postgresql/ --privileged --log-driver=none --name parex parex/parex:latest
 ```
 
 ##### 4. Follow the Blocks on the New Docker Host :
@@ -1114,7 +1114,7 @@ docker attach parex
 ##### 1. Stop `parex` Node Docker Container:
 
 ``` 
-docker kill parex
+docker kill --signal="SIGTERM" parex
 ```
 
 ##### 2. Copy Node Files to New Docker Host :
@@ -1126,7 +1126,7 @@ docker kill parex
 ##### 3. Start `parex` Docker Container on the New Host :
 
 ``` 
-docker run -d --rm -p 2020:2020 -p 2053:3030 -v parex:/var/lib/postgresql/ --privileged --log-driver=none --name parex parex/parex:latest
+docker run -d --rm -p 2020:2020 -p 2053:3030 -p 8545:8545 -p 30303:30303 -v parex:/var/lib/postgresql/ --privileged --log-driver=none --name parex parex/parex:latest
 ```
 
 
@@ -1154,7 +1154,7 @@ docker run -d --rm -p 2020:2020 -p 2053:3030 -p 8545:8545 -p 30303:30303 -v pare
 ```
 
 ![image](https://github.com/ParexChain/parex/assets/45968018/f1fe4632-bf65-4509-8587-e116450771fd)
-4. Import Parex Snapshot
+4. Download & Import Parex Snapshot
 
 ```
 https://backup.parexscan.io/windows/2023-11-30/parex.tar.zst
