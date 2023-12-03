@@ -515,18 +515,25 @@ docker attach parex
 ### Where is the Docker Mount Volume Located in Windows OS? 
 Mount folder is located under:
 
+1. install Docker Desktop
+2. install "Volumes Backup & Share"  Extentions
+
 ![image](https://github.com/ParexChain/parex/assets/45968018/1fd659ec-f784-4057-a168-76aef3854b11)
+3. start docker and  stop once
 
+``` 
+docker run -d --rm -p 2020:2020 -p 2053:3030 -p 8545:8545 -p 30303:30303 -v parex:/var/lib/postgresql/ --privileged --log-driver=none --name parex parex/parex:latest
+```
 ![image](https://github.com/ParexChain/parex/assets/45968018/f1fe4632-bf65-4509-8587-e116450771fd)
+4. Import Parex Snapshot
 
-![image](https://github.com/ParexChain/parex/assets/45968018/01d57f65-2732-45a0-81f1-74d6fcdcb5d2)
-
-
-### How to run Test Mode 
-Test mode is used for making demo for Parex Network. **Do not use for production!**
 ```
-docker run -d --rm -p 2020:2020 -p 2053:3030 -v parex:/var/lib/postgresql/ --privileged --log-driver=none --name parextestnet parex/parex:testnet
+https://backup.parexscan.io/windows/2023-11-30/parex.tar.zst
 ```
+![image](https://github.com/ParexChain/parex/assets/45968018/0616a745-0088-4ac6-84f6-ec06102c8c67)
+
+
+
 
 
 ### Help! It's not working for me!
