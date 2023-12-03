@@ -630,6 +630,12 @@ Sample Fee Calculation
 
 
 ## Public Release Notes
+##### v2.7.4
+
+- Integrated Testnet EVM
+- Truncated Ancient Data
+- Performance Improvements
+- Docker image for Windows is ready  
 
 ##### v2.7.4
 
