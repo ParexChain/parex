@@ -1137,27 +1137,32 @@ docker attach parex
 ```
 
 ### I am Getting Errors in Windows OS? 
-Make sure `Use the WSL 2 based engine` is enabled in Docker General Settings.
+
 
 
 ### Where is the Docker Mount Volume Located in Windows OS? 
 Mount folder is located under:
 
+1. install Docker Desktop
+2. install "Volumes Backup & Share"  Extentions
+
+![image](https://github.com/ParexChain/parex/assets/45968018/1fd659ec-f784-4057-a168-76aef3854b11)
+3. start docker and  stop once
+
 ``` 
-\\wsl$\docker-desktop-data\version-pack-data\community\docker\volumes
+docker run -d --rm -p 2020:2020 -p 2053:3030 -p 8545:8545 -p 30303:30303 -v parex:/var/lib/postgresql/ --privileged --log-driver=none --name parex parex/parex:latest
 ```
 
-### Where is the Pyhsical Path Docker Mount Volume Located in Windows OS? 
-Mount disk is located under:
+![image](https://github.com/ParexChain/parex/assets/45968018/f1fe4632-bf65-4509-8587-e116450771fd)
+4. Import Parex Snapshot
 
-``` 
-%USERPROFILE%\AppData\Local\Docker\wsl\data\ext4.vhdx
 ```
-### How to run Test Mode 
-Test mode is used for making demo for Parex Network. **Do not use for production!**
+https://backup.parexscan.io/windows/2023-11-30/parex.tar.zst
 ```
-docker run -d --rm -p 2020:2020 -p 2053:3030 -v parex:/var/lib/postgresql/ --privileged --log-driver=none --name parextestnet parex/parex:testnet
-```
+
+![image](https://github.com/ParexChain/parex/assets/45968018/0616a745-0088-4ac6-84f6-ec06102c8c67)
+
+
 
 
 ### Help! It's not working for me!
