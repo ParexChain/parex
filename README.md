@@ -1,5 +1,5 @@
 ![alt text](http://parex.market/github/prxgithub.png)
-Parex is a decentralized exchange. It also has a token that can only exist through the mining production mechanism. The production network is processed with the DRC-16 protocol. It can also build bridges with many networks thanks to Proof of Interoperability.
+Parex is a decentralized exchange. It also has a token that can only exist through the mining production mechanism. The production network is processed with the PEP-2 protocol. It can also build bridges with many networks thanks to Proof of Interoperability.
 
 Thanks to Parex Proof of Interoperability, it establishes interoperable bridges with other networks. There is a balance between all networks. Circulation is common.
 
