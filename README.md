@@ -410,7 +410,7 @@ Sample Fee Calculation
 
 ## Public Release Notes
 
-##### v2.9.5
+##### v2.9.4
 
 - MasterTracker Insurance Fund updated (10 PRX)
 - Tracker Insurance Fund updated (10 PRX)
