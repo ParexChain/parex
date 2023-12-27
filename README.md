@@ -410,6 +410,14 @@ Sample Fee Calculation
 
 ## Public Release Notes
 
+##### v2.9.5
+
+- MasterTracker Insurance Fund updated (10 PRX)
+- Tracker Insurance Fund updated (10 PRX)
+- Performance Improvements
+- ParexLigthning deprecated
+
+
 ##### v2.7.5
 
 - Integrated Testnet EVM
